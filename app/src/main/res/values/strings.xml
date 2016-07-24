@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">KTTSoft</string>
+    <string name="action_add">Add</string>
+    <string name="hint_fullname">Full name</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_salary">Salary</string>
+    <string name="hint_position">Position</string>
+    <string name="hint_department">Department</string>
+    <string name="text_edit_profile">EDIT PROFILE</string>
+    <string name="list_is_emty">Database is empty</string>
+    <string name="text_save">Save</string>
+    <string name="add_profile">ADD PROFILE</string>
+    <string name="toast_success_add">Profile added</string>
+    <string name="toast_failure_add">Something goes wrong</string>
+    <string name="title_dep_development">Development</string>
+    <string name="title_dep_managment">Managment</string>
+    <string name="title_dep_logistic">Logistic</string>
+    <string name="label_spinner_dep">Select depatrment:</string>
+    <string name="toast_enter_all_fields">Enter all fields</string>
+    <string name="action_reset">Reset</string>
+</resources>
