@@ -1,18 +1,14 @@
-package com.t3.bertalt.kttsoft.ui.recyclerview;
+package com.t3.bertalt.kttsoft.ui.modify;
 
 import android.app.Dialog;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.FrameLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -51,6 +47,7 @@ public class ModifyEmplFragment extends DialogFragment {
                 if(!commonValidatorIsOk()){
 
                     Toast.makeText(getContext(), getString(R.string.toast_enter_all_fields), Toast.LENGTH_SHORT).show();
+                    return;
                 }
 
                     realm.beginTransaction();
@@ -65,32 +62,6 @@ public class ModifyEmplFragment extends DialogFragment {
                     realm.commitTransaction();
 
                     dismiss();
-
-                /* realm.executeTransactionAsync(new Realm.Transaction() {
-                                                  @Override
-                                                  public void execute(Realm realm) {
-
-                                                  }
-                                              },
-                        new Realm.Transaction.OnSuccess() {
-                            @Override
-                            public void onSuccess() {
-
-                                Toast.makeText(getContext(), getString(R.string.toast_success_add),Toast.LENGTH_SHORT).show();
-
-                                ModifyEmplFragment.this.dismiss();
-                            }
-                        }, new Realm.Transaction.OnError() {
-                            @Override
-                            public void onError(Throwable error) {
-
-                                Toast.makeText(getContext(), getString(R.string.toast_failure_add),Toast.LENGTH_SHORT).show();
-
-                                ModifyEmplFragment.this.dismiss();
-                            }
-                        });
-
-                        */
 
             }
         }

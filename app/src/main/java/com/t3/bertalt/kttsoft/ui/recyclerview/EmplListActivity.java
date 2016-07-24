@@ -6,19 +6,17 @@ import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
 import com.t3.bertalt.kttsoft.R;
-import com.t3.bertalt.kttsoft.model.Departments;
 import com.t3.bertalt.kttsoft.model.Empl;
 import com.t3.bertalt.kttsoft.ui.DividerItemDecoration;
+import com.t3.bertalt.kttsoft.ui.modify.ModifyEmplFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
