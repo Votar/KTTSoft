@@ -1,5 +1,5 @@
 
-package com.t3.bertalt.kttsoft.ui.recyclerview;
+package com.t3.bertalt.kttsoft.ui.empl_list;
 
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.t3.bertalt.kttsoft.R;
+import com.t3.bertalt.kttsoft.adapters.MyRecyclerViewAdapter;
 import com.t3.bertalt.kttsoft.model.Empl;
 import com.t3.bertalt.kttsoft.ui.DividerItemDecoration;
 import com.t3.bertalt.kttsoft.ui.modify.ModifyEmplFragment;

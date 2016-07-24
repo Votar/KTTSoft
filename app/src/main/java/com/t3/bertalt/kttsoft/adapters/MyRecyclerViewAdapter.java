@@ -1,7 +1,6 @@
-package com.t3.bertalt.kttsoft.ui.recyclerview;
+package com.t3.bertalt.kttsoft.adapters;
 
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
@@ -10,6 +9,7 @@ import android.widget.TextView;
 import com.t3.bertalt.kttsoft.R;
 import com.t3.bertalt.kttsoft.model.Departments;
 import com.t3.bertalt.kttsoft.model.Empl;
+import com.t3.bertalt.kttsoft.ui.empl_list.EmplListActivity;
 
 import io.realm.OrderedRealmCollection;
 import io.realm.RealmRecyclerViewAdapter;
